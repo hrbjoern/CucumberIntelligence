@@ -1,0 +1,62 @@
+#Particulars for this repo: 
+Data/*/*png
+Data/*/*/*png
+#Data/setup*/*/*txt
+Data/setup_002_standalone/misc/*.jpg
+Data/Videos/*
+Data/FrischeGurken
+Videos/*
+Old_Data_including_single_jsons
+_Dokumentation
+Results/*
+Old_AI_Software/
+setup_002_standalone/GPT_segmentation_labels/*
+setup_002_standalone/converted_labels/*
+setup_002_standalone/setup-002-standalone-yolo.tar.gz 
+setup_002_standalone_for*
+Data/setup_006_test
+
+2024-09_CucumberIntelligence_Repo.code-workspace
+AlteDokumentation
+BerrysSoftware
+Private/*
+2025-02-27_1214_results.png
+
+# Output videos: 
+*.avi
+
+# Models: 
+#*.pt 
+WorkInProgress/*.pt 
+*.torchscript
+
+# Tutorials: 
+*.zip
+
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg

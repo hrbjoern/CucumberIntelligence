@@ -1,0 +1,24 @@
+(dsr-setup) 16:19:48|hrbjoern-Think:~/Desktop/2024-09_CucumberIntelligence/Data/setup_006_test$ python ../../src/prepare_yolo_data_folders.py 
+Current folder is: /home/hrbjoern/Desktop/2024-09_CucumberIntelligence/Data/setup_006_test
+Found 10 labels.
+Found 8 labelled images:
+ ['20220614_134224', '20220614_134218', '20220614_134220', '20220614_134226', '20220614_134217', '20220614_134223', '20220614_134221', '20220614_134225']
+Created train/images and train/labels.
+Created val/images and val/labels.
+Created test/images and test/labels.
+Moved 20220614_134224.png to train/images.
+Moved converted_segmentation_labels/20220614_134224.txt to train/labels.
+Moved 20220614_134218.png to train/images.
+Moved converted_segmentation_labels/20220614_134218.txt to train/labels.
+Moved 20220614_134220.png to train/images.
+Moved converted_segmentation_labels/20220614_134220.txt to train/labels.
+Moved 20220614_134226.png to train/images.
+Moved converted_segmentation_labels/20220614_134226.txt to train/labels.
+Moved 20220614_134217.png to train/images.
+Moved converted_segmentation_labels/20220614_134217.txt to train/labels.
+Moved 20220614_134223.png to val/images.
+Moved converted_segmentation_labels/20220614_134223.txt to val/labels.
+Moved 20220614_134221.png to val/images.
+Moved converted_segmentation_labels/20220614_134221.txt to val/labels.
+Moved 20220614_134225.png to test/images.
+Moved converted_segmentation_labels/20220614_134225.txt to test/labels.

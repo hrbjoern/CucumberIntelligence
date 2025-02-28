@@ -1,0 +1,283 @@
+Loading Models/2024-09-28_2145_boxes_best.onnx for ONNX Runtime inference...
+Line Counter Initiated.
+
+0: 640x640 (no detections), 295.8ms
+Speed: 3.9ms preprocess, 295.8ms inference, 1.5ms postprocess per image at shape (1, 3, 640, 640)
+
+0: 640x640 (no detections), 310.2ms
+Speed: 5.2ms preprocess, 310.2ms inference, 0.9ms postprocess per image at shape (1, 3, 640, 640)
+
+0: 640x640 (no detections), 181.4ms
+Speed: 4.5ms preprocess, 181.4ms inference, 0.8ms postprocess per image at shape (1, 3, 640, 640)
+
+0: 640x640 (no detections), 167.9ms
+Speed: 3.4ms preprocess, 167.9ms inference, 0.8ms postprocess per image at shape (1, 3, 640, 640)
+
+0: 640x640 (no detections), 158.6ms
+Speed: 4.2ms preprocess, 158.6ms inference, 0.9ms postprocess per image at shape (1, 3, 640, 640)
+
+0: 640x640 (no detections), 161.0ms
+Speed: 4.4ms preprocess, 161.0ms inference, 0.8ms postprocess per image at shape (1, 3, 640, 640)
+
+0: 640x640 (no detections), 187.1ms
+Speed: 11.4ms preprocess, 187.1ms inference, 0.9ms postprocess per image at shape (1, 3, 640, 640)
+
+0: 640x640 (no detections), 183.2ms
+Speed: 4.2ms preprocess, 183.2ms inference, 0.8ms postprocess per image at shape (1, 3, 640, 640)
+
+0: 640x640 (no detections), 299.1ms
+Speed: 4.3ms preprocess, 299.1ms inference, 0.9ms postprocess per image at shape (1, 3, 640, 640)
+
+0: 640x640 (no detections), 155.6ms
+Speed: 5.1ms preprocess, 155.6ms inference, 0.8ms postprocess per image at shape (1, 3, 640, 640)
+
+0: 640x640 (no detections), 154.6ms
+Speed: 3.6ms preprocess, 154.6ms inference, 0.8ms postprocess per image at shape (1, 3, 640, 640)
+
+0: 640x640 (no detections), 172.6ms
+Speed: 4.1ms preprocess, 172.6ms inference, 0.8ms postprocess per image at shape (1, 3, 640, 640)
+
+0: 640x640 (no detections), 163.9ms
+Speed: 4.1ms preprocess, 163.9ms inference, 0.8ms postprocess per image at shape (1, 3, 640, 640)
+
+0: 640x640 (no detections), 295.0ms
+Speed: 3.6ms preprocess, 295.0ms inference, 0.9ms postprocess per image at shape (1, 3, 640, 640)
+
+0: 640x640 (no detections), 167.2ms
+Speed: 4.1ms preprocess, 167.2ms inference, 0.8ms postprocess per image at shape (1, 3, 640, 640)
+
+0: 640x640 1 cucumber, 155.5ms
+Speed: 4.4ms preprocess, 155.5ms inference, 1.8ms postprocess per image at shape (1, 3, 640, 640)
+No Previous Position Found
+
+0: 640x640 1 cucumber, 158.8ms
+Speed: 3.7ms preprocess, 158.8ms inference, 1.4ms postprocess per image at shape (1, 3, 640, 640)
+
+0: 640x640 1 cucumber, 294.6ms
+Speed: 3.8ms preprocess, 294.6ms inference, 1.3ms postprocess per image at shape (1, 3, 640, 640)
+
+0: 640x640 1 cucumber, 293.0ms
+Speed: 4.7ms preprocess, 293.0ms inference, 1.4ms postprocess per image at shape (1, 3, 640, 640)
+
+0: 640x640 (no detections), 264.9ms
+Speed: 4.3ms preprocess, 264.9ms inference, 0.9ms postprocess per image at shape (1, 3, 640, 640)
+
+0: 640x640 1 cucumber, 157.2ms
+Speed: 3.6ms preprocess, 157.2ms inference, 1.3ms postprocess per image at shape (1, 3, 640, 640)
+
+0: 640x640 1 cucumber, 155.7ms
+Speed: 4.6ms preprocess, 155.7ms inference, 1.4ms postprocess per image at shape (1, 3, 640, 640)
+
+0: 640x640 1 cucumber, 155.3ms
+Speed: 3.9ms preprocess, 155.3ms inference, 1.4ms postprocess per image at shape (1, 3, 640, 640)
+
+0: 640x640 1 cucumber, 158.4ms
+Speed: 4.1ms preprocess, 158.4ms inference, 1.3ms postprocess per image at shape (1, 3, 640, 640)
+
+0: 640x640 1 cucumber, 155.5ms
+Speed: 4.5ms preprocess, 155.5ms inference, 1.3ms postprocess per image at shape (1, 3, 640, 640)
+
+0: 640x640 1 cucumber, 200.8ms
+Speed: 4.5ms preprocess, 200.8ms inference, 1.3ms postprocess per image at shape (1, 3, 640, 640)
+
+0: 640x640 1 cucumber, 259.8ms
+Speed: 5.2ms preprocess, 259.8ms inference, 1.3ms postprocess per image at shape (1, 3, 640, 640)
+
+0: 640x640 1 cucumber, 294.6ms
+Speed: 3.9ms preprocess, 294.6ms inference, 1.5ms postprocess per image at shape (1, 3, 640, 640)
+
+0: 640x640 1 cucumber, 184.2ms
+Speed: 4.2ms preprocess, 184.2ms inference, 1.3ms postprocess per image at shape (1, 3, 640, 640)
+
+0: 640x640 1 cucumber, 291.7ms
+Speed: 4.7ms preprocess, 291.7ms inference, 1.3ms postprocess per image at shape (1, 3, 640, 640)
+
+0: 640x640 1 cucumber, 165.9ms
+Speed: 3.9ms preprocess, 165.9ms inference, 1.4ms postprocess per image at shape (1, 3, 640, 640)
+
+0: 640x640 1 cucumber, 293.9ms
+Speed: 4.5ms preprocess, 293.9ms inference, 1.4ms postprocess per image at shape (1, 3, 640, 640)
+
+0: 640x640 1 cucumber, 292.2ms
+Speed: 4.7ms preprocess, 292.2ms inference, 1.4ms postprocess per image at shape (1, 3, 640, 640)
+
+0: 640x640 1 cucumber, 256.5ms
+Speed: 4.4ms preprocess, 256.5ms inference, 1.4ms postprocess per image at shape (1, 3, 640, 640)
+
+0: 640x640 1 cucumber, 229.4ms
+Speed: 4.1ms preprocess, 229.4ms inference, 1.7ms postprocess per image at shape (1, 3, 640, 640)
+
+0: 640x640 1 cucumber, 293.3ms
+Speed: 4.7ms preprocess, 293.3ms inference, 1.4ms postprocess per image at shape (1, 3, 640, 640)
+
+0: 640x640 1 cucumber, 160.2ms
+Speed: 4.4ms preprocess, 160.2ms inference, 1.4ms postprocess per image at shape (1, 3, 640, 640)
+
+0: 640x640 1 cucumber, 159.9ms
+Speed: 4.5ms preprocess, 159.9ms inference, 1.4ms postprocess per image at shape (1, 3, 640, 640)
+
+0: 640x640 1 cucumber, 318.0ms
+Speed: 9.7ms preprocess, 318.0ms inference, 1.3ms postprocess per image at shape (1, 3, 640, 640)
+yay!
+dx, dy:
+tensor(326.6395) tensor(1890.2695)
+box[0], prev_position[0], self.counting_region.centroid.x:
+tensor(477.6245) 510.0679626464844 500.0 
+
+box[1], prev_position[1], self.counting_region.centroid.y:
+tensor(278.6024) 302.8753662109375 225.0 
+
+In count!
+
+0: 640x640 1 cucumber, 267.9ms
+Speed: 4.6ms preprocess, 267.9ms inference, 1.3ms postprocess per image at shape (1, 3, 640, 640)
+
+0: 640x640 1 cucumber, 155.9ms
+Speed: 4.9ms preprocess, 155.9ms inference, 1.4ms postprocess per image at shape (1, 3, 640, 640)
+
+0: 640x640 1 cucumber, 221.2ms
+Speed: 3.8ms preprocess, 221.2ms inference, 1.3ms postprocess per image at shape (1, 3, 640, 640)
+
+0: 640x640 1 cucumber, 156.6ms
+Speed: 4.4ms preprocess, 156.6ms inference, 1.3ms postprocess per image at shape (1, 3, 640, 640)
+
+0: 640x640 (no detections), 154.5ms
+Speed: 3.2ms preprocess, 154.5ms inference, 0.8ms postprocess per image at shape (1, 3, 640, 640)
+
+0: 640x640 (no detections), 257.1ms
+Speed: 4.0ms preprocess, 257.1ms inference, 0.8ms postprocess per image at shape (1, 3, 640, 640)
+
+0: 640x640 (no detections), 171.3ms
+Speed: 3.7ms preprocess, 171.3ms inference, 0.8ms postprocess per image at shape (1, 3, 640, 640)
+
+0: 640x640 (no detections), 155.0ms
+Speed: 4.5ms preprocess, 155.0ms inference, 0.8ms postprocess per image at shape (1, 3, 640, 640)
+
+0: 640x640 (no detections), 292.8ms
+Speed: 3.7ms preprocess, 292.8ms inference, 0.8ms postprocess per image at shape (1, 3, 640, 640)
+
+0: 640x640 (no detections), 156.9ms
+Speed: 4.5ms preprocess, 156.9ms inference, 0.9ms postprocess per image at shape (1, 3, 640, 640)
+
+0: 640x640 (no detections), 161.0ms
+Speed: 4.2ms preprocess, 161.0ms inference, 0.8ms postprocess per image at shape (1, 3, 640, 640)
+
+0: 640x640 (no detections), 166.1ms
+Speed: 4.5ms preprocess, 166.1ms inference, 0.9ms postprocess per image at shape (1, 3, 640, 640)
+
+0: 640x640 (no detections), 187.2ms
+Speed: 3.9ms preprocess, 187.2ms inference, 0.9ms postprocess per image at shape (1, 3, 640, 640)
+
+0: 640x640 (no detections), 163.2ms
+Speed: 5.2ms preprocess, 163.2ms inference, 0.8ms postprocess per image at shape (1, 3, 640, 640)
+
+0: 640x640 (no detections), 176.7ms
+Speed: 5.9ms preprocess, 176.7ms inference, 0.8ms postprocess per image at shape (1, 3, 640, 640)
+
+0: 640x640 (no detections), 299.9ms
+Speed: 5.0ms preprocess, 299.9ms inference, 0.9ms postprocess per image at shape (1, 3, 640, 640)
+
+0: 640x640 (no detections), 291.2ms
+Speed: 4.1ms preprocess, 291.2ms inference, 0.8ms postprocess per image at shape (1, 3, 640, 640)
+
+0: 640x640 (no detections), 166.7ms
+Speed: 4.8ms preprocess, 166.7ms inference, 0.8ms postprocess per image at shape (1, 3, 640, 640)
+
+0: 640x640 (no detections), 161.0ms
+Speed: 3.6ms preprocess, 161.0ms inference, 0.9ms postprocess per image at shape (1, 3, 640, 640)
+
+0: 640x640 (no detections), 168.6ms
+Speed: 3.6ms preprocess, 168.6ms inference, 0.9ms postprocess per image at shape (1, 3, 640, 640)
+
+0: 640x640 (no detections), 161.3ms
+Speed: 4.2ms preprocess, 161.3ms inference, 0.8ms postprocess per image at shape (1, 3, 640, 640)
+
+0: 640x640 (no detections), 159.8ms
+Speed: 4.1ms preprocess, 159.8ms inference, 0.8ms postprocess per image at shape (1, 3, 640, 640)
+
+0: 640x640 (no detections), 304.0ms
+Speed: 4.0ms preprocess, 304.0ms inference, 0.9ms postprocess per image at shape (1, 3, 640, 640)
+
+0: 640x640 (no detections), 160.9ms
+Speed: 3.8ms preprocess, 160.9ms inference, 0.9ms postprocess per image at shape (1, 3, 640, 640)
+
+0: 640x640 (no detections), 154.3ms
+Speed: 4.8ms preprocess, 154.3ms inference, 0.8ms postprocess per image at shape (1, 3, 640, 640)
+
+0: 640x640 (no detections), 155.5ms
+Speed: 4.4ms preprocess, 155.5ms inference, 0.8ms postprocess per image at shape (1, 3, 640, 640)
+
+0: 640x640 (no detections), 227.3ms
+Speed: 4.1ms preprocess, 227.3ms inference, 0.8ms postprocess per image at shape (1, 3, 640, 640)
+
+0: 640x640 (no detections), 164.4ms
+Speed: 3.8ms preprocess, 164.4ms inference, 0.9ms postprocess per image at shape (1, 3, 640, 640)
+
+0: 640x640 (no detections), 294.3ms
+Speed: 4.6ms preprocess, 294.3ms inference, 0.8ms postprocess per image at shape (1, 3, 640, 640)
+
+0: 640x640 (no detections), 295.5ms
+Speed: 5.0ms preprocess, 295.5ms inference, 0.9ms postprocess per image at shape (1, 3, 640, 640)
+
+0: 640x640 (no detections), 294.2ms
+Speed: 4.7ms preprocess, 294.2ms inference, 0.9ms postprocess per image at shape (1, 3, 640, 640)
+
+0: 640x640 (no detections), 157.8ms
+Speed: 4.3ms preprocess, 157.8ms inference, 4.5ms postprocess per image at shape (1, 3, 640, 640)
+
+0: 640x640 (no detections), 159.0ms
+Speed: 4.3ms preprocess, 159.0ms inference, 0.9ms postprocess per image at shape (1, 3, 640, 640)
+
+0: 640x640 (no detections), 159.5ms
+Speed: 4.7ms preprocess, 159.5ms inference, 0.9ms postprocess per image at shape (1, 3, 640, 640)
+
+0: 640x640 (no detections), 158.0ms
+Speed: 4.2ms preprocess, 158.0ms inference, 0.8ms postprocess per image at shape (1, 3, 640, 640)
+
+0: 640x640 (no detections), 304.9ms
+Speed: 5.3ms preprocess, 304.9ms inference, 0.9ms postprocess per image at shape (1, 3, 640, 640)
+
+0: 640x640 (no detections), 302.7ms
+Speed: 5.8ms preprocess, 302.7ms inference, 0.9ms postprocess per image at shape (1, 3, 640, 640)
+
+0: 640x640 (no detections), 218.5ms
+Speed: 4.3ms preprocess, 218.5ms inference, 0.8ms postprocess per image at shape (1, 3, 640, 640)
+
+0: 640x640 (no detections), 184.0ms
+Speed: 4.1ms preprocess, 184.0ms inference, 0.9ms postprocess per image at shape (1, 3, 640, 640)
+
+0: 640x640 (no detections), 160.0ms
+Speed: 4.2ms preprocess, 160.0ms inference, 0.7ms postprocess per image at shape (1, 3, 640, 640)
+
+0: 640x640 (no detections), 183.5ms
+Speed: 3.5ms preprocess, 183.5ms inference, 0.8ms postprocess per image at shape (1, 3, 640, 640)
+
+0: 640x640 (no detections), 187.7ms
+Speed: 4.0ms preprocess, 187.7ms inference, 0.9ms postprocess per image at shape (1, 3, 640, 640)
+
+0: 640x640 (no detections), 295.5ms
+Speed: 3.9ms preprocess, 295.5ms inference, 0.8ms postprocess per image at shape (1, 3, 640, 640)
+
+0: 640x640 (no detections), 184.7ms
+Speed: 5.4ms preprocess, 184.7ms inference, 1.6ms postprocess per image at shape (1, 3, 640, 640)
+
+0: 640x640 (no detections), 255.3ms
+Speed: 5.3ms preprocess, 255.3ms inference, 4.4ms postprocess per image at shape (1, 3, 640, 640)
+
+0: 640x640 (no detections), 158.4ms
+Speed: 4.1ms preprocess, 158.4ms inference, 0.8ms postprocess per image at shape (1, 3, 640, 640)
+
+0: 640x640 (no detections), 162.9ms
+Speed: 4.1ms preprocess, 162.9ms inference, 0.8ms postprocess per image at shape (1, 3, 640, 640)
+
+0: 640x640 (no detections), 156.2ms
+Speed: 4.8ms preprocess, 156.2ms inference, 0.8ms postprocess per image at shape (1, 3, 640, 640)
+
+0: 640x640 (no detections), 198.6ms
+Speed: 7.3ms preprocess, 198.6ms inference, 0.8ms postprocess per image at shape (1, 3, 640, 640)
+
+Video processing has been successfully completed.
+Output video file: FinalResults/2025-02-26_webcam_counting_output.avi
+1 cucumbers counted in 88 frames,
+i.e. 0.05 cucumbers per second.
+

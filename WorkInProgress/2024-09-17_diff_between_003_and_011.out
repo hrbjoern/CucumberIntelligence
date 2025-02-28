@@ -1,0 +1,38 @@
+Only in setup_011/probe_011/_probe_001/: 20220614_131145_b.png
+Only in /media/hrbjoern/9A9D-5AFC/setup_003: 20220614_131145.png
+Only in setup_011/probe_011/_probe_001/: 20220614_131151_b.png
+Only in /media/hrbjoern/9A9D-5AFC/setup_003: 20220614_131151.png
+Only in setup_011/probe_011/_probe_001/: 20220614_131200_b.png
+Only in /media/hrbjoern/9A9D-5AFC/setup_003: 20220614_131200.png
+Only in setup_011/probe_011/_probe_001/: 20220614_131225_b.png
+Only in /media/hrbjoern/9A9D-5AFC/setup_003: 20220614_131225.png
+Only in setup_011/probe_011/_probe_001/: 20220614_131241_b.png
+Only in /media/hrbjoern/9A9D-5AFC/setup_003: 20220614_131241.png
+Only in setup_011/probe_011/_probe_001/: 20220614_131244_b.png
+Only in /media/hrbjoern/9A9D-5AFC/setup_003: 20220614_131244.png
+diff /media/hrbjoern/9A9D-5AFC/setup_003/annotations.json setup_011/probe_011/_probe_001/annotations.json
+295c295
+<             "file_name": "20220614_131145.png"
+---
+>             "file_name": "20220614_131145_b.png"
+331c331
+<             "file_name": "20220614_131151.png"
+---
+>             "file_name": "20220614_131151_b.png"
+391c391
+<             "file_name": "20220614_131200.png"
+---
+>             "file_name": "20220614_131200_b.png"
+505c505
+<             "file_name": "20220614_131225.png"
+---
+>             "file_name": "20220614_131225_b.png"
+565c565
+<             "file_name": "20220614_131241.png"
+---
+>             "file_name": "20220614_131241_b.png"
+583c583
+<             "file_name": "20220614_131244.png"
+---
+>             "file_name": "20220614_131244_b.png"
+Only in setup_011/probe_011/_probe_001/: .DAV
