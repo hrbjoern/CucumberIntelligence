@@ -81,7 +81,8 @@ After saving the annotated training data to my personal Google Drive, I used
 Google Colab for the actual fine-tuning. Backup copies of some Jupyter notebooks can
 be found in the [Notebooks](Notebooks) folder, the latest was
  [this](Notebooks/Finetuning_YOLO_with_labeltype.ipynb).
-(YOLOv8 by Ultralytics uses PyTorch[^7].) 
+(YOLOv8 by Ultralytics uses PyTorch[^7].)
+
 I defined the cucumber image class to be used, and the training, validation and 
 test images were chosen from the annotated photographs 
 (see [src/prepare_yolo_data_folders.py](src/prepare_yolo_data_folders.py)).
@@ -97,11 +98,13 @@ details of training parameters etc.? Contact me ... and by the way: A very helpf
 #### Training results
 
 My (so far) final model-building run comprised 300 training epochs. 
-Figures showing metrics like training and validation loss etc. can be found in the [TrainingResults](TrainingResults) directory. The most important training result is of course the 
+Figures showing metrics like training and validation loss etc. can be found in
+the [TrainingResults](TrainingResults) directory. The most important training
+result is of course the 
 fine-tuned model, which was automatically saved in each training run. Some model 
 files are stored [here](Models). Models for the detection
-and classification of cucumbers (which use rectangular bounding boxes around each
-object) are produced and used slightly differently from those that include the 
+and classification of cucumbers which use rectangular *bounding boxes* around each
+object are produced and used slightly differently from those that include the 
 full segmentation, i.e. contour of each individual cucumber. 
 
 
@@ -140,6 +143,9 @@ of cucumbers counted;
 - and an output video file, where the individual cucumbers are marked in colour 
 and tracked. 
 
-Examples can be found in the [FinalResults](FinalResults) directory. 
+One example is shown in the GIF above; others can be found in the [FinalResults](FinalResults) directory. 
 
 ![alt text](FinalResults/vlcsnap-2025-02-26-12h18m09s977.png)
+
+
+(Disclaimer: I cannot make the original commit history of this repo public.)
