@@ -1,0 +1,44 @@
+Frame 89
+
+0: 480x640 3 cucumbers, 312.8ms
+Speed: 3.5ms preprocess, 312.8ms inference, 7.2ms postprocess per image at shape (1, 3, 480, 640)
+yay!
+dx, dy:
+tensor(613.6057) tensor(-2712.5471)
+box[0], prev_position[0], self.counting_region.centroid.x:
+tensor(280.7539) 404.94097900390625 400.0 
+
+box[1], prev_position[1], self.counting_region.centroid.y:
+tensor(141.7272) 181.09188842773438 250.0 
+
+Out count!
+--
+Frame 93
+
+0: 480x640 2 cucumbers, 321.7ms
+Speed: 3.5ms preprocess, 321.7ms inference, 5.7ms postprocess per image at shape (1, 3, 480, 640)
+yay!
+dx, dy:
+tensor(668.1602) tensor(169.7225)
+box[0], prev_position[0], self.counting_region.centroid.x:
+tensor(305.4828) 406.6072998046875 400.0 
+
+box[1], prev_position[1], self.counting_region.centroid.y:
+tensor(217.0870) 254.5325164794922 250.0 
+
+In count!
+--
+Frame 99
+
+0: 480x640 3 cucumbers, 314.4ms
+Speed: 3.6ms preprocess, 314.4ms inference, 7.4ms postprocess per image at shape (1, 3, 480, 640)
+yay!
+dx, dy:
+tensor(469.2030) tensor(2979.0220)
+box[0], prev_position[0], self.counting_region.centroid.x:
+tensor(352.0085) 408.3306884765625 400.0 
+
+box[1], prev_position[1], self.counting_region.centroid.y:
+tensor(313.0020) 344.5195617675781 250.0 
+
+In count!

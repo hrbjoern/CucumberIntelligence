@@ -1,0 +1,5 @@
+Fragen an Berry: 
+
+1) Warum sind die Annotationen-JSONs pro Bild 30 MB groß?
+2) Überhaupt, wie viele Annotationen haben wir?
+3) Wo und wie genau wird die IoU berechnet? (bboxes vs. segmentations?)

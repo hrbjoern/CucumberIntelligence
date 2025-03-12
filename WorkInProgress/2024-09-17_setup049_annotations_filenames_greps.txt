@@ -1,0 +1,14 @@
+(base) 12:12:41|hrbjoern-Think:~/Desktop/2024-09_CucumberIntelligence/Data/setup_049$ grep "file_name" probe_049/probe_049/_probe_aaa_unfinished/annotations.json 
+            "file_name": "20220614_134225.png"
+            "file_name": "20220614_134229.png"
+            "file_name": "20220614_134226.png"
+(base) 12:13:25|hrbjoern-Think:~/Desktop/2024-09_CucumberIntelligence/Data/setup_049$ grep "file_name" probe_049/_probe_aaa/annotations.json
+            "file_name": "20220614_134225.png"
+            "file_name": "20220614_134229.png"
+            "file_name": "20220614_134226.png"
+(base) 12:13:33|hrbjoern-Think:~/Desktop/2024-09_CucumberIntelligence/Data/setup_049$ grep "file_name" runs_049/_runs_aaa/setting_aaa/util/annotations_probe.json
+            "file_name": "20220614_134225.png",
+            "file_name": "20220614_134229.png",
+(base) 12:13:39|hrbjoern-Think:~/Desktop/2024-09_CucumberIntelligence/Data/setup_049$ grep "file_name" runs_049/_runs_aaa/setting_aaa/util/annotations_eval.json 
+            "file_name": "20220614_134226.png",
+(base) 12:13:43|hrbjoern-Think:~/Desktop/2024-09_CucumberIntelligence/Data/setup_049$ 

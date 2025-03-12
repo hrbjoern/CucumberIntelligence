@@ -1,0 +1,147 @@
+segment/predict: weights=['yolov5s-seg.pt'], source=data/video/Gurkenvideo.mp4, data=data/coco128.yaml, imgsz=[640, 640], conf_thres=0.25, iou_thres=0.45, max_det=1000, device=, view_img=False, save_txt=False, save_conf=False, save_crop=False, nosave=False, classes=None, agnostic_nms=False, augment=False, visualize=False, update=False, project=runs/predict-seg, name=exp, exist_ok=False, line_thickness=3, hide_labels=False, hide_conf=False, half=False, dnn=False, vid_stride=1, retina_masks=False
+YOLOv5 🚀 v7.0-365-g12b577c8 Python-3.10.12 torch-2.4.0+cu121 CUDA:0 (Tesla T4, 15102MiB)
+
+Downloading https://github.com/ultralytics/yolov5/releases/download/v7.0/yolov5s-seg.pt to yolov5s-seg.pt...
+100% 14.9M/14.9M [00:00<00:00, 32.7MB/s]
+
+Fusing layers... 
+YOLOv5s-seg summary: 224 layers, 7611485 parameters, 0 gradients, 26.4 GFLOPs
+WARNING ⚠️ NMS time limit 0.550s exceeded
+video 1/1 (7/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 cake, 12.3ms
+video 1/1 (9/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 cake, 12.3ms
+video 1/1 (10/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 cake, 12.3ms
+video 1/1 (11/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 cake, 12.3ms
+video 1/1 (12/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 cake, 12.3ms
+video 1/1 (14/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 bird, 1 cake, 12.3ms
+video 1/1 (15/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 elephant, 12.3ms
+video 1/1 (16/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 bird, 1 cake, 12.3ms
+video 1/1 (17/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 bird, 1 elephant, 1 cake, 12.3ms
+video 1/1 (18/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 cake, 12.3ms
+video 1/1 (19/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 cake, 12.3ms
+video 1/1 (21/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 elephant, 12.3ms
+video 1/1 (22/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 elephant, 1 cake, 13.1ms
+video 1/1 (23/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 elephant, 1 cake, 12.3ms
+video 1/1 (24/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 banana, 1 cake, 12.3ms
+video 1/1 (25/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 banana, 12.3ms
+video 1/1 (27/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 banana, 12.8ms
+video 1/1 (28/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 banana, 12.3ms
+video 1/1 (29/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 cake, 12.3ms
+video 1/1 (58/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 banana, 12.3ms
+video 1/1 (63/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 banana, 12.3ms
+video 1/1 (64/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 broccoli, 12.3ms
+video 1/1 (70/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 banana, 12.3ms
+video 1/1 (71/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 bird, 12.2ms
+video 1/1 (72/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 bird, 12.3ms
+video 1/1 (87/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 bird, 12.3ms
+video 1/1 (102/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 broccoli, 12.3ms
+video 1/1 (175/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 bird, 12.3ms
+video 1/1 (178/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 bird, 12.3ms
+video 1/1 (182/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 bird, 12.3ms
+video 1/1 (187/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 bird, 18.0ms
+video 1/1 (211/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 bird, 14.3ms
+video 1/1 (212/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 bird, 12.3ms
+video 1/1 (221/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 cake, 19.8ms
+video 1/1 (236/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 broccoli, 14.1ms
+video 1/1 (254/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 cake, 12.3ms
+video 1/1 (261/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 cake, 12.3ms
+video 1/1 (263/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 cake, 12.3ms
+video 1/1 (266/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 cake, 12.3ms
+video 1/1 (307/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 cake, 12.3ms
+video 1/1 (308/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 cake, 12.3ms
+video 1/1 (309/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 cake, 12.3ms
+video 1/1 (310/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 cake, 12.3ms
+video 1/1 (311/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 cake, 12.3ms
+video 1/1 (316/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 cake, 12.2ms
+video 1/1 (331/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 bird, 12.3ms
+video 1/1 (334/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 2 birds, 12.3ms
+video 1/1 (335/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 bird, 12.3ms
+video 1/1 (380/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 elephant, 12.3ms
+video 1/1 (382/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 elephant, 12.3ms
+video 1/1 (385/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 elephant, 12.3ms
+video 1/1 (389/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 elephant, 13.4ms
+video 1/1 (422/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 scissors, 12.3ms
+video 1/1 (430/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 broccoli, 12.3ms
+video 1/1 (441/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 cake, 12.3ms
+video 1/1 (445/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 cake, 19.6ms
+video 1/1 (446/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 cake, 13.0ms
+video 1/1 (447/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 cake, 12.3ms
+video 1/1 (448/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 cake, 12.3ms
+video 1/1 (449/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 cake, 12.3ms
+video 1/1 (450/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 cake, 12.3ms
+video 1/1 (451/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 cake, 12.3ms
+video 1/1 (461/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 cake, 12.3ms
+video 1/1 (490/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 broccoli, 12.3ms
+video 1/1 (527/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 broccoli, 12.4ms
+video 1/1 (631/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 banana, 12.3ms
+video 1/1 (632/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 banana, 12.3ms
+video 1/1 (634/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 banana, 12.3ms
+video 1/1 (635/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 banana, 12.3ms
+video 1/1 (636/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 banana, 12.3ms
+video 1/1 (637/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 banana, 12.3ms
+video 1/1 (638/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 banana, 12.3ms
+video 1/1 (639/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 banana, 12.3ms
+video 1/1 (640/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 banana, 12.3ms
+video 1/1 (644/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 banana, 12.3ms
+video 1/1 (646/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 banana, 12.2ms
+video 1/1 (649/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 banana, 12.3ms
+video 1/1 (712/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 potted plant, 12.3ms
+video 1/1 (713/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 bowl, 12.3ms
+video 1/1 (744/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 cow, 12.3ms
+video 1/1 (746/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 horse, 12.2ms
+video 1/1 (747/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 cow, 12.3ms
+video 1/1 (749/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 horse, 12.3ms
+video 1/1 (760/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 cake, 12.9ms
+video 1/1 (761/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 cake, 12.3ms
+video 1/1 (767/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 cake, 12.3ms
+video 1/1 (769/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 elephant, 12.3ms
+video 1/1 (770/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 cake, 12.3ms
+video 1/1 (771/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 cake, 12.3ms
+video 1/1 (772/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 cake, 12.3ms
+video 1/1 (774/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 cake, 12.6ms
+video 1/1 (775/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 cake, 12.3ms
+video 1/1 (776/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 elephant, 12.2ms
+video 1/1 (777/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 cow, 12.3ms
+video 1/1 (778/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 cake, 12.3ms
+video 1/1 (780/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 cake, 12.3ms
+video 1/1 (785/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 cake, 13.5ms
+video 1/1 (786/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 cake, 12.3ms
+video 1/1 (790/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 cat, 12.3ms
+video 1/1 (856/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 2 bottles, 12.3ms
+video 1/1 (857/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 4 bottles, 12.3ms
+video 1/1 (858/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 5 bottles, 12.3ms
+video 1/1 (868/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 bottle, 12.3ms
+video 1/1 (892/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 broccoli, 12.3ms
+video 1/1 (933/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 cake, 18.7ms
+video 1/1 (934/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 cake, 14.5ms
+video 1/1 (935/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 cake, 27.8ms
+video 1/1 (940/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 knife, 16.0ms
+video 1/1 (943/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 cow, 24.9ms
+video 1/1 (948/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 cake, 12.3ms
+video 1/1 (982/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 cake, 12.3ms
+video 1/1 (983/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 cake, 15.4ms
+video 1/1 (984/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 cake, 12.3ms
+video 1/1 (987/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 cake, 12.3ms
+video 1/1 (1024/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 banana, 12.3ms
+video 1/1 (1046/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 cake, 12.3ms
+video 1/1 (1047/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 cake, 12.3ms
+video 1/1 (1055/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 cake, 12.3ms
+video 1/1 (1056/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 cake, 12.3ms
+video 1/1 (1059/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 cake, 12.3ms
+video 1/1 (1062/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 cake, 12.3ms
+video 1/1 (1084/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 cake, 12.3ms
+video 1/1 (1085/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 cake, 12.3ms
+video 1/1 (1235/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 knife, 33.4ms
+video 1/1 (1244/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 umbrella, 12.3ms
+video 1/1 (1253/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 knife, 13.0ms
+video 1/1 (1254/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 knife, 12.3ms
+video 1/1 (1255/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 knife, 20.8ms
+video 1/1 (1267/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 knife, 15.5ms
+video 1/1 (1269/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 knife, 24.1ms
+video 1/1 (1270/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 knife, 1 cake, 13.5ms
+video 1/1 (1271/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 knife, 18.6ms
+video 1/1 (1272/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 knife, 1 cake, 12.3ms
+video 1/1 (1283/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 knife, 19.5ms
+video 1/1 (1307/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 cake, 12.3ms
+video 1/1 (1308/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 cake, 12.3ms
+video 1/1 (1337/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 broccoli, 12.3ms
+video 1/1 (1396/1416) /content/yolov5/data/video/Gurkenvideo.mp4: 480x640 1 skateboard, 12.3ms

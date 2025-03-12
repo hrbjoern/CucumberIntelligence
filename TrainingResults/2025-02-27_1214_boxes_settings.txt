@@ -1,0 +1,11 @@
+Training date = 2025-02-27_1214
+Setup = _alle
+Model = yolov8n.pt
+Labeltype = boxes
+Batchsize = 120
+Imagesize = 640
+Epochs = 3
+Number of training images: 247
+Number of validation images: 71
+Number of test images: 36
+Model directory: /content/drive/MyDrive/CucumberModels/2025-02-27_1214_boxes
